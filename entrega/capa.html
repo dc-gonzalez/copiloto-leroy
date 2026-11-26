@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<title>Grupo 105 – Challenge Sprint 2</title>
+<style>
+  @page { size: A4; margin: 22mm 20mm; }
+  body { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; color: #1b1d1a; font-size: 11pt; line-height: 1.5; }
+  .faixa { height: 6px; background: #78be20; margin-bottom: 28px; }
+  .sobre { font-size: 9pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #61665e; }
+  h1 { font-size: 24pt; margin: 6px 0 2px; letter-spacing: -.01em; }
+  .sub { font-size: 12pt; color: #61665e; margin: 0 0 28px; }
+  h2 { font-size: 10pt; letter-spacing: .08em; text-transform: uppercase; color: #61665e; border-bottom: 1px solid #e2e4df; padding-bottom: 6px; margin: 26px 0 10px; }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 7px 0; border-bottom: 1px solid #eee; vertical-align: top; }
+  td:first-child { width: 34%; color: #61665e; }
+  a { color: #2f7d12; word-break: break-all; }
+  .rodape { margin-top: 40px; font-size: 9pt; color: #8b9087; }
+</style>
+</head>
+<body>
+  <div class="faixa"></div>
+  <div class="sobre">FIAP · Challenge Leroy Merlin · Sprint 2</div>
+  <h1>Copiloto Leroy</h1>
+  <p class="sub">Assistente de Loja com IA · Experiência em loja: otimização da jornada do cliente com IA</p>
+
+  <h2>Equipe</h2>
+  <table>
+    <tr><td>Nome da equipe</td><td><strong>Grupo 105</strong></td></tr>
+    <tr><td>Integrantes</td><td>
+      Daniel Camilo Gonzalez – RM564592<br />
+      Enzo Fernandes Bertelli – RM565482<br />
+      Danilo Kvet Barbosa – RM565735
+    </td></tr>
+  </table>
+
+  <h2>Entregáveis</h2>
+  <table>
+    <tr><td>Vídeo pitch (até 3 min)</td><td><a href="{{VIDEO_URL}}">{{VIDEO_URL}}</a></td></tr>
+    <tr><td>MVP publicado (deploy)</td><td><a href="{{SITE_URL}}">{{SITE_URL}}</a></td></tr>
+    <tr><td>API</td><td><a href="{{API_URL}}">{{API_URL}}</a></td></tr>
+    <tr><td>Repositório</td><td><a href="{{REPO_URL}}">{{REPO_URL}}</a></td></tr>
+    <tr><td>Código do MVP</td><td>copiloto-leroy-mvp.zip (neste pacote)</td></tr>
+  </table>
+
+  <h2>Como testar</h2>
+  <table>
+    <tr><td>Cliente</td><td>Abra o link do MVP no celular, toque em "Trocar chuveiro" e siga o caminho na loja.</td></tr>
+    <tr><td>Vendedor</td><td>Em outra aba, abra "Área do vendedor" no rodapé para ver a fila e os indicadores.</td></tr>
+    <tr><td>Observação</td><td>A API usa o plano gratuito do Render; o primeiro acesso pode levar até 1 minuto.</td></tr>
+  </table>
+
+  <p class="rodape">Entregue em {{DATA}}.</p>
+</body>
+</html>

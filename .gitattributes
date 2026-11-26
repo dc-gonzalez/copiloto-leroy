@@ -1,0 +1,4 @@
+# Kept in the repository, left out of the code ZIP built by entrega/gerar.sh
+/.gitattributes export-ignore
+/entrega export-ignore
+/docs export-ignore
